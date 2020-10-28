@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_detail"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/bg"/>
+            <ImageView
+                android:id="@+id/img_item_photo"
+                android:layout_width="match_parent"
+                android:layout_height="350dp"
+                android:layout_marginRight="16dp"
+                android:layout_marginLeft="16dp"
+                android:adjustViewBounds="true"
+                android:scaleType="fitCenter"
+                tools:src="@drawable/mothership_gz700" />
+
+            <TextView
+                android:id="@+id/tv_item_display"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:layout_marginRight="16dp"
+                android:textAlignment="textEnd"
+                android:textColor="@android:color/white"
+                android:textSize="20sp"
+                tools:text="15.6''" />
+        </FrameLayout>
+
+        <TextView
+            android:id="@+id/tv_item_price"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginBottom="8dp"
+            android:textColor="@android:color/holo_red_dark"
+            android:textSize="32sp"
+            tools:text="Rp.130.999.000" />
+
+        <TextView
+            android:id="@+id/tv_item_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="8dp"
+            android:textColor="@android:color/black"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            tools:text="ROG MOthersip GZ700" />
+
+        <TextView
+            android:id="@+id/tv_item_spesifikasi"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginBottom="8dp"
+            tools:text="Windows 10 Home/Intel® Core™ i9-9980HK/RTX2080_V8G/64G/512G*3 PCIe/Per Key RGB" />
+
+        <TextView
+            android:id="@+id/tv_item_detail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:textColor="@android:color/black"
+            tools:text="Laptop memiliki sistem pendingin yang terbatas dan mengunci Anda di posisi tertentu yang tidak solid sebagai penggantian desktop, jadi kami telah menyusun ulang form factor untuk meningkatkan performa game Anda. ROG Mothership adalah perangkat bertenaga portabel Windows 10 dengan desain inovatif yang meningkatkan pendinginan untuk GPU GeForce RTX™ 2080 yang di-overclock dan CPU delapan-core Intel® Core™ i9 Generasi ke 9. Nikmati layar G-SYNC™ 4K yang detail dan keyboard yang dapat dilepas-pasang untuk beradaptasi dengan cara Anda bermain. Penyimpanan RAID SSD dan 2.5G Ethernet menghadirkan kinerja sangat cepat untuk setiap bagian dari mesin game revolusioner ini" />
+    </LinearLayout>
+
+</ScrollView>

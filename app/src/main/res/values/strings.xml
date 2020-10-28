@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">ROG Notebook Series</string>
+    <string name="rog_name">Nama ROG</string>
+    <string name="detail">Detail</string>
+    <string name="spesifikasi">(Windows 10 Home/Intel® Core™ i9-9980HK/RTX2080_V8G/64G/512G*3 PCIe/Per Key RGB)</string>
+    <string name="harga_mothership_gz700">Rp 130.999.000</string>
+    <string name="harga">Harga</string>
+    <string name="about">About</string>
+    <string name="back">Back</string>
+</resources>
